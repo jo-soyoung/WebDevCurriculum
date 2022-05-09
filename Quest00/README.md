@@ -47,26 +47,27 @@
 
   - git이 어떻게 개발 되었냐면..
     - [History of Git](https://www.welcometothejungle.com/en/articles/btc-history-git)
-    - A client-server VCS works fine in a corporate environment, where development is tightly controlled and is undertaken by an in-house development team with good network connections. It doesn’t work so well if you have a collaboration involving hundreds or thousands of developers, working voluntarily, independently, and remotely, all eager to try out new things with the code, which is all typical with open source software (OSS) projects such as Linux.
-    - Distributed VCS, pioneered by BK, broke that mould. Git, Mercurial, and Monotone all followed this example. With distributed VCS, a copy of the most current version of the code resides on each developer’s device, making it easier for developers to work independently on changes to the code. “BK was the big conceptual influence for the usage model, and really should get all the credit. For various reasons, I wanted to make the Git implementation and logic completely different from BK, but the conceptual notion of ‘distributed VCS’ really was the number one goal, and BK taught me the importance of that,” says Torvalds. “Being truly distributed means forks are non-issues, and anybody can fork a project and do their own development, and then come back a month or a year later and say, ‘Look at this great thing I’ve done.’”
-
+    - git을 개발한 Linus Torvalds와 그의 팀은 Linux Kernel을 개발하면서 BK(BitKeeper)라는 VCS툴을 사용 중이었음. 당시 BK는 유료 툴이었지만 Linux 팀에게는 무료로 제공되고 있었고, 추후 BK측과 Linux 팀원 개발자와 갈등이 생기면서 더이상 무료로 사용하기 힘들어짐. 그래서 새로운 VCS 툴을 찾던 중 Linus는 git을 개발함.
   - git이 분산형 시스템을 채택한 이유는 뭐냐면..
+    - Centralized VCS(aka Client-server VCS)는 개발 과정이 컨트롤 되고 서로 활발한 네트워킹이 있는 사내 개발팀에게는 좋을 수 있음. 하지만 당시 Linux 팀은 자발적으로 프로젝트에 참여한 수많은 개발자들과 협업해서 일하고 있었고 그들은 독립적이고 재택 근무 형태로 일을 하고 있었음.
+    - Distributed VCS은 각각의 로컬에 저장된 파일들 중 가장 최신 상태를 복사해오는 형태로 운영되기 때문에 개발자들이 독립적으로 일하기 훨씬 편함. 
+    - _“BK was the big conceptual influence for the usage model, and really should get all the credit. For various reasons, I wanted to make the Git implementation and logic completely different from BK, but the conceptual notion of ‘distributed VCS’ really was the number one goal, and BK taught me the importance of that,” says Torvalds. “Being truly distributed means forks are non-issues, and anybody can fork a project and do their own development, and then come back a month or a year later and say, ‘Look at this great thing I’ve done.’”_
 
-
-
-  
   <br/><br/>
 
-* git과 GitHub은 어떻게 다를까요?
+### * git과 GitHub은 어떻게 다를까요?
+  | git | GitHub |
+  |  :--:  |  :--:  |
+  | 상품/제품(software)의 consistency를<br/>유지하기 위한 것에 초점 | 말 그대로 상품/제품(software)의 버전을 관리하는 시스템 |
 <br/><br/>
 
-* git의 clone/add/commit/push/pull/branch/stash 명령은 무엇이며 어떨 때 이용하나요? 그리고 어떻게 사용하나요?
+### * git의 clone/add/commit/push/pull/branch/stash 명령은 무엇이며 어떨 때 이용하나요? 그리고 어떻게 사용하나요?
 <br/><br/>
 
-* git의 Object, Commit, Head, Branch, Tag는 어떤 개념일까요? git 시스템은 프로젝트의 히스토리를 어떻게 저장할까요?
+### * git의 Object, Commit, Head, Branch, Tag는 어떤 개념일까요? git 시스템은 프로젝트의 히스토리를 어떻게 저장할까요?
 <br/><br/>
 
-* 리모트 git 저장소에 원하지 않는 파일이 올라갔을 때 이를 되돌리려면 어떻게 해야 할까요?
+### * 리모트 git 저장소에 원하지 않는 파일이 올라갔을 때 이를 되돌리려면 어떻게 해야 할까요?
 <br/><br/>
 
 
