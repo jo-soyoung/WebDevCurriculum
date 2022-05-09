@@ -69,17 +69,24 @@
 2. `git add <변경된 파일명>` 혹은 `git add *`<br/>
 코드 변경 사항을 working directory에서 staging area에 추가하기 위한 명령어 <br/>
 (참고로, staging area에 들어간 순간부터 git이 해당 코드를 인식하고 추적할 수 있음)
+
+3. `git commit -m <커밋메시지>`<br/>
+변경사항들을 commit message라는 제목을 달아 저장소에 저장하는 명령어
+commit까지 끝낸 다음에서야 GitHub에 push 할 수 있음
   <img src="https://www.w3docs.com/uploads/media/default/0001/03/ad19114d2f18ae7f7e8b99a5110d1a2f339282c6.png" width="400"/>
 
-3. `git commit -m <커밋명>`<br/>
+4. `git push origin <로컬 브랜치명>`<br/>
+GitHub와 같은 원격 저장소(aka. origin)에 로컬 브랜치에 있는 커밋들을 올리는 명령어
+ 
+5. `git pull`<br/>
+GitHub와 같은 원격 저장소(aka.origin)로부터 최신 정보를 받아 로컬 브랜치에 합치는(aka. merge하는) 명령어<br/>
+cf. `git pull --rebase` = `git rebase`<br/>merge하는 대신에 rebase 방식으로 로컬 브랜치를 업데이트하는 명령어 [git rebase](https://readystory.tistory.com/151)
 
-4. `git push`
+6. `git branch <브랜치명>`<br/>
+브랜치를 만드는 명령어. 브랜치는 일종의 버전이라고 생각하면 좋을듯. [What is git branch](https://www.atlassian.com/git/tutorials/using-branches)
 
-5. `git pull`
-
-6. `git branch`
-
-7. `git stash`
+7. `git stash`<br/>
+작업한 변경 사항들을 임시 저장하는 명령어 [git stash](https://blog.naver.com/cookr3/222547054926)
 
 <br/><br/>
 
