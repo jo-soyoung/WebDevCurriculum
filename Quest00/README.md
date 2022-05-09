@@ -56,9 +56,11 @@
   <br/><br/>
 
 ### * git과 GitHub은 어떻게 다를까요?
-  | git | GitHub |
+  | Git | GitHub |
   |  :--:  |  :--:  |
-  | 상품/제품(software)의 consistency를<br/>유지하기 위한 것에 초점 | 말 그대로 상품/제품(software)의 버전을 관리하는 시스템 |
+  | 개발자들이 소스코드를 관리하기 위해<br/> 설치하고 사용하는 오픈 소스 툴 | Git을 사용하는 개발자들이 모여<br/>리소스를 올리고 다운로드받는 곳 |
+
+  <img src="https://cdn.ttgtmedia.com/rms/onlineimages/serverside-git_vs_github.png" width="600"/>
 <br/><br/>
 
 ### * git의 clone/add/commit/push/pull/branch/stash 명령은 무엇이며 어떨 때 이용하나요? 그리고 어떻게 사용하나요?
