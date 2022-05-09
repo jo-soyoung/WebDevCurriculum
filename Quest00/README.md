@@ -83,7 +83,7 @@ GitHub와 같은 원격 저장소(aka.origin)로부터 최신 정보를 받아 �
 cf. `git pull --rebase` = `git rebase`<br/>merge하는 대신에 rebase 방식으로 로컬 브랜치를 업데이트하는 명령어 [git rebase](https://readystory.tistory.com/151)
 
 6. `git branch <브랜치명>`<br/>
-브랜치를 만드는 명령어. 브랜치는 일종의 버전이라고 생각하면 좋을듯. [What is git branch](https://www.atlassian.com/git/tutorials/using-branches)
+브랜치를 만드는 명령어
 
 7. `git stash`<br/>
 작업한 변경 사항들을 임시 저장하는 명령어 [git stash](https://blog.naver.com/cookr3/222547054926)
@@ -91,6 +91,12 @@ cf. `git pull --rebase` = `git rebase`<br/>merge하는 대신에 rebase 방식�
 <br/><br/>
 
 ### * git의 Object, Commit, Head, Branch, Tag는 어떤 개념일까요? git 시스템은 프로젝트의 히스토리를 어떻게 저장할까요?
+- Object
+- Commit
+- Head
+- Branch
+  - 브랜치는 일종의 버전이라고 생각하면 좋을듯. [What is git branch](https://www.atlassian.com/git/tutorials/using-branches)
+- Tag
 <br/><br/>
 
 ### * 리모트 git 저장소에 원하지 않는 파일이 올라갔을 때 이를 되돌리려면 어떻게 해야 할까요?
