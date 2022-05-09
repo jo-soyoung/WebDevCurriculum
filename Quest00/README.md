@@ -64,6 +64,23 @@
 <br/><br/>
 
 ### * git의 clone/add/commit/push/pull/branch/stash 명령은 무엇이며 어떨 때 이용하나요? 그리고 어떻게 사용하나요?
+1. `git clone <repository명> <directory명>` <br/>
+기존의 repository를 새로운 로컬 directory로 복사해오기 위한 명령어
+2. `git add <변경된 파일명>` 혹은 `git add *`<br/>
+코드 변경 사항을 working directory에서 staging area에 추가하기 위한 명령어 <br/>
+(참고로, staging area에 들어간 순간부터 git이 해당 코드를 인식하고 추적할 수 있음)
+  <img src="https://www.w3docs.com/uploads/media/default/0001/03/ad19114d2f18ae7f7e8b99a5110d1a2f339282c6.png" width="400"/>
+
+3. `git commit -m <커밋명>`<br/>
+
+4. `git push`
+
+5. `git pull`
+
+6. `git branch`
+
+7. `git stash`
+
 <br/><br/>
 
 ### * git의 Object, Commit, Head, Branch, Tag는 어떤 개념일까요? git 시스템은 프로젝트의 히스토리를 어떻게 저장할까요?
