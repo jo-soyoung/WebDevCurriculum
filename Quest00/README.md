@@ -29,7 +29,6 @@
 <br/><br/>
 
 ### * git은 어떤 형상관리 시스템이고 어떤 특징을 가지고 있을까요? 분산형 형상관리 시스템이란 무엇일까요?
-  #### * git은 어떻게 개발되게 되었을까요? git이 분산형 시스템을 채택한 이유는 무엇일까요?
   - git은 어떤 형상 관리 시스템?
     - 분산형 형상 관리 시스템 (Distributed VCS)
   - 분산형 형상 관리 시스템이 뭐냐면..
@@ -43,8 +42,9 @@
   | synchronizing, tracking, backing up files에 초점 | 변경 사항들을 공유하는 것에 초점 |
   | *중앙 서버의 파일을 날리면 모든 버전이 날아감 | 중앙 서버가 날아가도<br/>로컬 저장소의 기록을 이용해 복구 가능 |
   | <img src="https://t1.daumcdn.net/cfile/tistory/184C803F514047D41D" width="300"/> | <img src="https://t1.daumcdn.net/cfile/tistory/2511743F514047D442" width="300"/> |
-
-
+  
+<br/><br/>
+### * git은 어떻게 개발되게 되었을까요? git이 분산형 시스템을 채택한 이유는 무엇일까요?
   - git이 어떻게 개발 되었냐면..
     - [History of Git](https://www.welcometothejungle.com/en/articles/btc-history-git)
     - git을 개발한 Linus Torvalds와 그의 팀은 Linux Kernel을 개발하면서 BK(BitKeeper)라는 VCS툴을 사용 중이었음. 당시 BK는 유료 툴이었지만 Linux 팀에게는 무료로 제공되고 있었고, 추후 BK측과 Linux 팀원 개발자와 갈등이 생기면서 더이상 무료로 사용하기 힘들어짐. 그래서 새로운 VCS 툴을 찾던 중 Linus는 git을 개발함.
