@@ -91,12 +91,22 @@ cf. `git pull --rebase` = `git rebase`<br/>merge하는 대신에 rebase 방식�
 <br/><br/>
 
 ### * git의 Object, Commit, Head, Branch, Tag는 어떤 개념일까요? git 시스템은 프로젝트의 히스토리를 어떻게 저장할까요?
+
 - Object
+  - 기존 오리지널 파일들과 log 메시지, author 정보, 날짜 정보와 같이 수정 사항들을 새로 build하기 위한 모든 정보들을 갖고 있는 곳
+  - _It contains your original data files and all the log messages, author information, dates, and other information required to rebuild any revision or branch of the project._
 - Commit
+  - author, committer, commit-data, log-messages와 같은 정보들이 수정되면 저장소(repository)에 정보를 저장하는 object
+  - _A “commit” object holds metadata for each change introduced in the repository, including the author, committer, commit-data, and log- messages._
 - Head
+  - 
 - Branch
-  - 브랜치는 일종의 버전이라고 생각하면 좋을듯. [What is git branch](https://www.atlassian.com/git/tutorials/using-branches)
+  - 브랜치는 일종의 버전이라고 생각하면 좋을듯. 
 - Tag
+  - 보통 commit과 같은 특정 object에 사람이 읽을 수 있는 이름으로 임의의 이름을 지정하는 object
+  - _A “tag” object assigns an arbitrary human-readable name to a specific object usually a commit._
+- 참고: [What is git object model](https://medium.com/mindorks/what-is-git-object-model-6009c271ca66), [What is git branch](https://www.atlassian.com/git/tutorials/using-branches)
+
 <br/><br/>
 
 ### * 리모트 git 저장소에 원하지 않는 파일이 올라갔을 때 이를 되돌리려면 어떻게 해야 할까요?
