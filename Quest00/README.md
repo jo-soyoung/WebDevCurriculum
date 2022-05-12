@@ -99,9 +99,12 @@ cf. `git pull --rebase` = `git rebase`<br/>merge하는 대신에 rebase 방식�
   - author, committer, commit-data, log-messages와 같은 정보들이 수정되면 저장소(repository)에 정보를 저장하는 object
   - _A “commit” object holds metadata for each change introduced in the repository, including the author, committer, commit-data, and log- messages._
 - Head
-  - 
+  - 현재 위치하고 있는 브랜치라고 생각하면 됨. `checkout` 명령어로 다른 브랜치로 이동하면 HEAD는 그 새로운 브랜치로 옮겨 감.
+  - _The HEAD points out the last commit in the current checkout branch. It is like a pointer to any reference. The HEAD can be understood as the "current branch." When you switch branches with 'checkout,' the HEAD is transferred to the new branch._
 - Branch
-  - 브랜치는 일종의 버전이라고 생각하면 좋을듯. 
+  - 저장소같은 개념. 각각의 저장소는 여러 다른 파일과 폴더 버전들을 참조함.
+    - tree object와 같은 개념인듯?
+  - _A “tree” is basically like a directory- it references a bunch of other trees and blobs (i.e. files and sub-directories)._
 - Tag
   - 보통 commit과 같은 특정 object에 사람이 읽을 수 있는 이름으로 임의의 이름을 지정하는 object
   - _A “tag” object assigns an arbitrary human-readable name to a specific object usually a commit._
