@@ -138,9 +138,19 @@ cf. `git pull --rebase` = `git rebase`<br/>merge하는 대신에 rebase 방식�
 
 ## Advanced
 * Mercurial은 어떤 형상관리 시스템일까요? 어떤 장점이 있을까요?
+  | Git | Mercurial |
+  |  :--:  |  :--:  |
+  | Distributed VCS | Distributed VCS |
+  | 좀 더 Linux 친화적 | Windows에서 Git 보다 더 나은 성능 |
+  | 기본 명령만 제공하는 것 같지만<br/> 명령 확장성이 좋음 | 명령 확장성은 좋지 않지만<br/> 이미 웬만한 명령어는 다 있음 |
+  | 파일 전체 내용을 트래킹 <br/> = 저장소 용량이 급격히 올라감 <br/> = gc 명령으로 이걸 정리해 줌 | 변경된 내용만 트래킹 <br/> = git보다 저장소 용량이 완만하게 올라감 <br/> = 별도의 저장소 관리 필요없음 |
+  | 스냅샷 기반이라 Mercurial보다 대체로 빠름 | - |
+
+
 * 실리콘밸리의 테크 대기업들은 어떤 형상관리 시스템을 쓰고 있을까요?
   | Facebook | Google |
   |  :--:  |  :--:  |
   | Mercurial | Piper (in-house) |
 
+  - git의 단점 <br/>
   <img src="https://d2u3dcdbebyaiu.cloudfront.net/uploads/atch_img/177/467819caa4be6a14a9bb2aa650477043_res.jpeg" width="400"/>
