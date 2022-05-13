@@ -131,8 +131,16 @@ cf. `git pull --rebase` = `git rebase`<br/>merge하는 대신에 rebase 방식�
 * ✅ Windows의 경우 같이 설치된 git shell을, MacOSX의 경우 터미널을 실행시켜 커맨드라인에 들어간 뒤, 명령어를 이용하여 복사한 저장소를 clone합니다.
   * ✅ 앞으로의 git 작업은 되도록 커맨드라인을 통해 하는 것을 권장합니다.
 * ✅ 이 문서가 있는 폴더 바로 밑에 있는 sandbox 폴더에 파일을 추가한 후 커밋해 보기도 하고, 파일을 삭제해 보기도 하고, 수정해 보기도 하면서 각각의 단계에서 커밋했을 때 어떤 것들이 저장되는지를 확인합니다.
-* `clone`/`add`/`commit`/`push`/`pull`/`branch`/`stash` 명령을 충분히 익혔다고 생각되면, 자신의 저장소에 이력을 push합니다.
+* ✅ `clone`/`add`/`commit`/`push`/`pull`/`branch`/`stash` 명령을 충분히 익혔다고 생각되면, 자신의 저장소에 이력을 push합니다.
+  - `git stash push -m "stash-test"` 타이틀 붙여서 임시 저장
+  - `git stash list` 임시 저장한 리스트 보기
+  - `git stash pop` 임시 저장한 제일 최신 애 꺼내면서 임시 저장소에선 지우기
 
 ## Advanced
 * Mercurial은 어떤 형상관리 시스템일까요? 어떤 장점이 있을까요?
 * 실리콘밸리의 테크 대기업들은 어떤 형상관리 시스템을 쓰고 있을까요?
+  | Facebook | Google |
+  |  :--:  |  :--:  |
+  | Mercurial | Piper (in-house) |
+
+  <img src="https://d2u3dcdbebyaiu.cloudfront.net/uploads/atch_img/177/467819caa4be6a14a9bb2aa650477043_res.jpeg" width="400"/>
