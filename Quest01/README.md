@@ -31,6 +31,7 @@
   * HTML 표준을 지키는 것은 왜 중요할까요?
   * XHTML 2.0은 왜 세상에 나오지 못하게 되었을까요?
   * HTML5 표준은 어떤 과정을 통해 정해질까요?
+  * https://seulbinim.github.io/WSA/standards.html#%EC%9B%B9%ED%91%9C%EC%A4%80-%EA%B4%80%EB%A0%A8-%EA%B8%B0%EC%88%A0%EC%9D%98-%EC%86%8C%EA%B0%9C
   <br/><br/>
 
 ### * 브라우저의 역사는 어떻게 될까요?
